@@ -1075,5 +1075,257 @@
    				\setlength{\fboxrule}{0.7pt}
    				\fcolorbox{black}{white}{\includegraphics[height=0.2\textwidth]{book3}}
 			\end{figure}
-\end{document}
+	\cleardoublepage
+	\section{Exam}
+		\subsection{Multiple choice questions}
+			\paragraph{2SAT.}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1				
+				\item The problem 2SAT is:
+				\begin{enumerate}[label=\alph*.]
+					\item Such that INDSET can be reduced to it, i.e., INDSET $\leq_p$ 3SAT.
+					\item NP--hard.
+					\item[$\color{green}\boldsymbol{\surd}$] In the class EXP.
+					\item[$\color{green}\boldsymbol{\surd}$] Solvable in polynomial time.
+				\end{enumerate}
+			\end{enumerate}
+			\paragraph{3SAT.}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1			
+				\item The problem of deciding if a 3CNF is satisfiable is:
+				\begin{enumerate}[label=\alph*.]
+					\item Undecidable, but NP--hard.
+					\item[$\color{green}\boldsymbol{\surd}$] In the class EXP.
+					\item[c.] In the class P.
+					\item[$\color{green}\boldsymbol{\surd}$] NP--complete.
+				\end{enumerate}
+				% 2		
+				\item The problem 3SAT is:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] In the class EXP.
+					\item[b.] Computable in polynomial time.
+					\item[$\color{green}\boldsymbol{\surd}$] Such that INDSET can be reduce to it, i.e., INDSET $\leq_p$ 3SAT.
+					\item[$\color{green}\boldsymbol{\surd}$] NP--hard.
+				\end{enumerate}
+			\end{enumerate}
+			\paragraph{Class inclusion.}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1
+				\item Which ones of the following inclusions between complexity classes is coherent with the current knowledge (even if not proved, yet)?
+				\begin{enumerate}[label=\alph*.]
+					\item EXP $\subset$ NP.
+					\item[$\color{green}\boldsymbol{\surd}$] NP $\subseteq$ EXP.
+					\item[c.] EXP $\subseteq$ P.
+					\item[$\color{green}\boldsymbol{\surd}$] P $\subseteq$ EXP.
+				\end{enumerate}
+			\end{enumerate}
+			\paragraph{Reductions.}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1
+				\item Which one(s) among the following reductions hold:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] CLIQUE $\leq_p$ SAT.
+					\item[$\color{green}\boldsymbol{\surd}$] 2SAT $\leq_p$ INDSET.
+					\item[c.] INDSET $\leq_p$ 2SAT.
+					\item[$\color{green}\boldsymbol{\surd}$] SAT $\leq_p$ SAT.
+				\end{enumerate}
+			\end{enumerate}
+			\paragraph{Turing Machines.}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1
+				\item In Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item The presence of many tapes can make the class P different.
+					\item The class EXP can be equal to P.
+					\item[$\color{green}\boldsymbol{\surd}$] The presence of many tapes can make the class DTIME$(n)$ different.
+					\item[$\color{green}\boldsymbol{\surd}$] What can be computed in exponential time is different from what can be computed in polynomial time.
+				\end{enumerate}
+				% 2		
+				\item Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item All work in polynomial time.
+					\item[$\color{green}\boldsymbol{\surd}$] Can contain an arbitrary number of work tapes.
+					\item[c.] All work in exponential time.
+					\item[$\color{green}\boldsymbol{\surd}$] Are such that certain problems that can be computed in time $n^2$ cannot be computed in time $n$.
+				\end{enumerate}
+				% 3
+				\item Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] Can sometime work in polynomial time.
+					\item[b.] Always work in a time bounded by a total function $f$.
+					\item[$\color{green}\boldsymbol{\surd}$] Can simulate any other computational model with polynomial overhead.
+					\item[$\color{green}\boldsymbol{\surd}$] Are such that the presence of multiple tapes changes what can be computed in linear time.
+				\end{enumerate}
+				% 4
+				\item Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] Can contain an arbitrary number of work tapes.
+					\item[b.] Are such that certain problems that can be computed in time $n^2$ cannot be computed in time $n^3$.
+					\item[c.] All work in time bounded by any function.
+					\item[d.] All work in time bounded by an exponential function.
+				\end{enumerate}
+				% 5
+				\item Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] Are such that certain problems that can be computed in time $2^n$ cannot be computed in time $n^2$.
+					\item[$\color{green}\boldsymbol{\surd}$] Can work on alphabets of arbitrary but fixed size.
+					\item[c.] All work in time bounded by a computable function.
+					\item[d.] All work in time bounded by a polynomial function.
+				\end{enumerate}
+				% 6
+				\item Turing Machines:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] Are such that certain problems that can be computed in time $2^n$ cannot be computed in time $n$, despite it's not known whether P is equal to NP.
+					\item[$\color{green}\boldsymbol{\surd}$] Can all be simulated by one Turing machine.
+					\item[c.] Can have infinitely many tapes.
+					\item[d.] All work in exponential time.
+				\end{enumerate}
+				% 7
+				\item The universal Turing Machine:
+				\begin{enumerate}[label=\alph*.]
+					\item[$\color{green}\boldsymbol{\surd}$] Is an essential ingredient in the proof of existence of uncomputable problems.
+					\item[b.] Works in polynomial time.
+					\item[c.] Can simulate every Turing machine, but not itself.
+					\item[$\color{green}\boldsymbol{\surd}$] Can simulate every Turing machine, with a polynomial overhead.
+				\end{enumerate}
+			\end{enumerate}
+		\newpage
+		\subsection{Problems}
+			\begin{enumerate}[label=\textbf{\arabic*.}, leftmargin=*]
+				% 1				
+				\item Construct a deterministic TM of the kind you prefer, which decides the following language:
+				\begin{center}
+					$\mathcal{L} = \{w \in \{0,1\}^*\; \vert$ if $00$ is a subsequence of $w$, then it is followed by at least two $1$s in $w\}$.
+				\end{center}
+				Study the complexity of TM you have defined.
+				\begin{pane}
+						
+				\end{pane}
+				% 2				
+				\item Construct a deterministic TM of the kind you prefer, which decides the following language:
+				\begin{center}
+					$\mathcal{L} = \{w \in \{0,1\}^*\; \vert$ every $1$ occurring in $w$ is immediately followed by a $0\}$.
+				\end{center}
+				Study the complexity of TM you have defined.
+				\begin{pane}
+						
+				\end{pane}
+				% 3			
+				\item Construct a deterministic TM of the kind you prefer, which decides the following language:
+				\begin{center}
+					$\mathcal{L} = \{w \in \{0,1\}^*\; \vert$ if $01$ occurs in $w$, then all characters to the right of it are $0$s$\}$.
+				\end{center}
+				Study the complexity of TM you have defined.
+				\begin{pane}
+						
+				\end{pane}
+				% 4		
+				\item Consider the following problem:
+				\begin{center}
+					4SAT = $\{A \; \vert \; A$ is a satisfiable 4CNF$\}$.
+				\end{center}
+				To which complexity class does 4SAT belong? Prove your claim.
+				\begin{pane}
+						
+				\end{pane}
+				% 5		
+				\item Construct a deterministic TM of the kind you prefer, which decided the following language:
+				\begin{center}
+					$\mathcal{L}\{w \in \{0,1\}^* \; \vert$ between any occurrences of $1$ in $w$ there is an even number of $0$s$\}$.
+				\end{center}
+				Study the complexity of TM you have defined.
+				\begin{pane}
+						
+				\end{pane}
+				% 6
+				\item (1) We studied the classes SAT, and 3SAT, and 2SAT. You are required to classify the problem 1SAT containing all (and only) the satisfiable 1CNFs. In particular, to which complexity class does 1SAT belong? Prove your claim.\\
+				
+				(2) Consider the following problem:
+				\begin{center}
+					1SAT = $\{A \; \vert \; A$ is a satisfiable 1CNF$\}$.
+				\end{center}
+				To which complexity class does 1SAT belong? Prove your claim.
+				\begin{pane}
+					1SAT is in P.\\
+					
+					\textbf{\uline{Presudocode:}}
+					\begin{verbatim}
+						1 = lenght(A)
+						for i in Ol for v in 0...
+						if (A[][0] == A[v][0] and A[i][1] =! A[v][1])
+						return false
+						return true
+					\end{verbatim}
 
+					
+					
+					This pseudocode returns true only if A is satisfiable (not the result, but given whether A is satisfiable the solution is trivial).\\
+					
+					\textbf{\uline{Proof that 1SAT is in P, given the pseudocode:}}
+					\begin{enumerate}[label=\arabic*., leftmargin=*]
+						\item The input can be easily encoded in a binary string. Each element of A can be represented as a pair of the variable and whether it's negated (variable\#negation). With n different variable log $n + 1$ bits are required, the negation needs 1 bit, we also need to add \@ to separate the pairs. We map 0 to 00, 1 to 11, \# to 10 and \@ to 01. Is then easy to confirm that the total number of bits needed is polynomial.
+						\item The total number of executed instruction is $1 + 2*0(n^2) = O(n^2)$.
+						\item Each instruction can be simulated by a TM in polynomial time (for example a TM to do an equality check needs to go through the tapes only one time).
+						\item \texttt{i} and \texttt{v} can be at most big as the length of A and are thus bounded by a polynomial in I.
+					\end{enumerate}
+				\end{pane}
+				%		
+				\item The vertex cover problem is a well-known NP-complete problem defined as follows: given a graph G and a positive integer k, determine if G has a vertex cover of size at most k, where a vertex cover of a graph is a subset S of the set of G's edges such that every vertex is among the endpoints of an edge in S. Now, consider the following variation to the problem: given G, k and d, determine if G has a d-vertex cover of size at most k, where a d-vertex cover of G is a subset S of G's nodes such that every vertex is of the endpoints of at least d distinct edges in S. To which complexity class does this new problem belong? Prove your claim.
+				\begin{pane}
+						
+				\end{pane}
+				%
+				\item (1) You are required to prove that the following problem $\mathcal{L}$ is in \textbf{NP}. To do that, you can give a TM or define some pseudocode. The language $\mathcal{L}$ includes precisely those binary strings which are encodings of pairs in the form $(G, t)$ where $G$ is a graph and $t$ is a natural number, such that the nodes of $G$ can be partitioned into at most $t$ sets in such a way that nodes which are part of distinct sets are not linked by any edge.\\
+				
+				(2) You are required to prove that the following problem $\mathcal{L}$ is in \textbf{NP}. To do that, you can give a TM or define some pseudocode. The language $\mathcal{L}$ includes precisely those binary strings which are encodings of pairs in the form $(G, k)$ where $G$ is a graph and $k$ is a natural number, such that the nodes of $G$ can be assigned a natural number between $1$ and $k$ in such a way that nodes which are linked by an edge are assigned distinct natural numbers.
+				\begin{pane}
+					\begin{center}
+						$\mathcal{L} = \{(G, k) \; \vert$ Exist C.(number of different values in $C < k$ and (for every $(v, u)$ that are edges $C[v] != C[u]$))$\}$.
+					\end{center}
+					Given that this is in the form `certificate-verifier' what we need to do to prove that this problem is in NP is to show that the certificate has polynomial size and that M runs in polynomial time.
+					\begin{enumerate}[label=\arabic*., leftmargin=*]
+						\item The certificate $C$ has size bounded by the graph $G$ and thus is polynomial.
+						\item It's enough to check whether any pair have different value (given that they're connected by an edge). This can be done in quadratic time and thus M runs in polynomial time.
+					\end{enumerate}
+				\end{pane}
+				%
+				\item You are required to prove that the following problem L is in NP . To do that, you can give a TM or define some pseudocode. The language L includes precisely those binary strings which are encodings of triples in the form (n, m, k) where n and m are natural numbers which have at least k prime factors in common.
+				\begin{pane}
+						
+				\end{pane}
+				%	
+				\item You are required to prove that the following problem is in \textbf{NP}. To do that, you proceed as you prefer (e.g. by giving a NTM, or by giving certificates and algorithms). The problem is one that, given a natural number $n$ and a set of natural numbers $D$, checks whether $n$ is a product of distinct elements from $D$.
+				\begin{pane}
+						
+				\end{pane}
+				%	
+				\item You are required to prove that the following function $f$ is in \textbf{FP}. To do that, you can give a TMs or define some pseudocode. The function is one that, given two strings $u, w \in \sum^*$ checks whether $v$ is a substring of $w$, namely whether $w$ contains an exact occurrence of $v$.
+				\begin{pane}
+						
+				\end{pane}
+				%	
+				\item We studied the problem \texttt{CLIQUE}. You are required to classify the subset \texttt{THREECLIQUE} of \texttt{CLIQUE} consisting of all the pairs $(G, 3)$. To which class does \texttt{THREECLIQUE} belong?
+				\begin{pane}
+						
+				\end{pane}
+				%
+				\item We studied the problem \texttt{INDSET}. You are required to classify the subset \texttt{ONEINDSET} of \texttt{INDSET} whose elements are pairs $G,k$ such that $G$ is an undirected graph such that every node is contained in \emph{at most one edge}, and $k$ is a natural number. To which complexity class(es) does \texttt{ONEINDSET} BELONG?
+				\begin{pane}
+					\textbf{\uline{Presudocode:}}\\
+					
+					\texttt{INPUT:} G = (V,E) s.t. every node is contained in at most one edge, k.\\
+					\texttt{OUTPUT:} 1 if G has an indset of size $\geq$ k, 0 otherwise.
+					\begin{verbatim}
+						indset_size <- |V|
+						foreach {u,v} in E do
+						    indset_size <- indset_size - 1
+						if indset_size >= k then
+						    return 1
+						return 0
+					\end{verbatim}
+				\end{pane}
+			\end{enumerate}
+
+
+
+\end{document}
